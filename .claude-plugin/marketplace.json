@@ -1,11 +1,30 @@
 {
+  "name": "cc-freelance",
+  "owner": {
+    "name": "techino35"
+  },
+  "metadata": {
+    "description": "フリーランスエンジニア専用の仮想会社プラグイン。案件獲得・顧客管理・収入管理・開発タスクを一元管理。"
+  },
   "plugins": [
     {
-      "id": "freelance",
-      "name": "Freelance Company",
-      "description": "フリーランスエンジニア専用の仮想会社プラグイン。案件獲得・顧客管理・収入管理・開発タスクを一元管理。",
+      "name": "freelance",
+      "source": "./plugins/freelance",
+      "description": "フリーランスエンジニア専用の仮想会社スキル。案件獲得・顧客対応・開発・経理・リサーチを一元管理。",
       "version": "1.0.0",
-      "path": "plugins/freelance"
+      "author": {
+        "name": "techino35"
+      },
+      "repository": "https://github.com/techino35/cc-freelance",
+      "license": "MIT",
+      "category": "productivity",
+      "tags": [
+        "freelance",
+        "engineer",
+        "sales",
+        "finance",
+        "productivity"
+      ]
     }
   ]
 }
