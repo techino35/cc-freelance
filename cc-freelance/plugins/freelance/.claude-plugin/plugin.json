@@ -1,0 +1,8 @@
+{
+  "id": "freelance",
+  "name": "Freelance Company",
+  "description": "フリーランスエンジニア専用の仮想会社プラグイン。秘書が窓口、CEOが案件・顧客・開発・経理を振り分け。",
+  "version": "1.0.0",
+  "trigger": "/freelance",
+  "skills": ["freelance"]
+}
