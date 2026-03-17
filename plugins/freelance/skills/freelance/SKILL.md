@@ -3,7 +3,7 @@ name: freelance
 description: >
   フリーランスエンジニア専用の仮想会社スキル。
   秘書が常駐の窓口として何でも相談に乗り、
-  CEOが案件獲得・顧客対応・開発・経理に振り分ける。
+  CEOが案件獲得・顧客対応・開発・経理・マーケティングに振り分ける。
 trigger: /freelance
 ---
 
@@ -67,6 +67,7 @@ trigger: /freelance
 > - 開発（engineering）- 実装タスク・設計・デバッグ管理
 > - 経理（finance）- 収入・請求・目標管理
 > - リサーチ（research）- 新案件調査・スコアリング・技術調査
+> - マーケティング（marketing）- SNS・コンテンツ・プロダクト集客管理
 >
 > この構成でよろしいですか？
 
@@ -148,10 +149,19 @@ trigger: /freelance
 │   │   └── _template.md
 │   └── invoices/
 │       └── _template.md
-└── research/                    # リサーチ
+├── research/                    # リサーチ
+│   ├── CLAUDE.md
+│   ├── _template.md
+│   └── cases/
+│       └── _template.md
+└── marketing/                   # マーケティング
     ├── CLAUDE.md
     ├── _template.md
-    └── cases/
+    ├── sns/
+    │   └── _template.md
+    ├── content/
+    │   └── _template.md
+    └── store-copy/
         └── _template.md
 ```
 
@@ -221,6 +231,7 @@ trigger: /freelance
 | 開発（engineering） | 「実装」「コード」「GAS」「Python」「FastAPI」「バグ」「デバッグ」「設計」「API」「スクレイピング」「自動化」「修正」 |
 | 経理（finance） | 「収入」「請求」「売上」「入金」「目標」「単価」「時給」「月収」「確定申告」「インボイス」「経費」 |
 | リサーチ（research） | 「調べて」「案件調査」「競合」「技術調査」「〜できるか確認」「市場」「スタック確認」「学習」 |
+| マーケティング（marketing） | 「SNS」「Twitter」「X」「Reddit」「投稿」「コンテンツ」「集客」「Product Hunt」「ストア説明文」「LP」「ランディングページ」「英語コピー」「プロモーション」「告知」 |
 
 **複数部署にまたがる場合**: 主担当を決め、関連部署には連携タスクとして通知形式で記録する。
 

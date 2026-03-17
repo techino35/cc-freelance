@@ -762,3 +762,168 @@ status: in-progress
 2. 新技術・ツールの習得可能性調査
 3. 市場単価・プラットフォーム動向
 ```
+
+---
+
+## 9. マーケティング（marketing）
+
+### 部署トップ（marketing/_template.md）
+```markdown
+---
+type: department
+name: マーケティング
+role: SNS・コンテンツ・プロダクト集客管理
+---
+
+# マーケティング
+
+プロダクトの集客・SNS・コンテンツ管理を担当します。
+
+## サブフォルダ
+- `sns/` - SNS投稿管理（X/Reddit/Product Hunt等）
+- `content/` - コンテンツ・ブログ・LP管理
+- `store-copy/` - アプリストア説明文管理
+```
+
+### SNS投稿（marketing/sns/_template.md）
+```markdown
+---
+created: "{{YYYY-MM-DD}}"
+product: ""
+platform: ""
+status: draft
+tags: []
+---
+
+# SNS投稿: [タイトル]
+
+## プロダクト
+-
+
+## プラットフォーム
+X / Reddit / Product Hunt / その他
+
+## ターゲット
+-
+
+## 投稿文（English）
+
+---
+
+## 投稿文（日本語メモ）
+
+---
+
+## ハッシュタグ
+-
+
+## 投稿予定日
+{{YYYY-MM-DD}}
+
+## ステータス
+- [ ] 下書き
+- [ ] レビュー済み
+- [ ] 投稿済み
+
+## 反応・メモ
+-
+```
+
+### コンテンツ管理（marketing/content/_template.md）
+```markdown
+---
+created: "{{YYYY-MM-DD}}"
+product: ""
+type: ""
+status: draft
+---
+
+# コンテンツ: [タイトル]
+
+## プロダクト
+-
+
+## コンテンツ種別
+ブログ / LP / README / プレスリリース / その他
+
+## ターゲット読者
+-
+
+## 本文（English）
+
+---
+
+## メモ
+-
+
+## ステータス
+- [ ] 下書き
+- [ ] レビュー済み
+- [ ] 公開済み
+```
+
+### ストア説明文（marketing/store-copy/_template.md）
+```markdown
+---
+created: "{{YYYY-MM-DD}}"
+product: ""
+platform: ""
+version: ""
+---
+
+# ストア説明文: [プロダクト名] - [プラットフォーム]
+
+## ショートディスクリプション（80文字以内）
+
+## ロングディスクリプション
+
+## キーワード（ASO）
+-
+
+## スクリーンショット説明文
+1.
+2.
+3.
+
+## 更新履歴（What's New）
+-
+
+## ステータス
+- [ ] 下書き
+- [ ] レビュー済み
+- [ ] 申請済み
+```
+
+---
+
+## marketing/CLAUDE.md
+```markdown
+# マーケティング
+
+## 役割
+プロダクトのSNS投稿・コンテンツ作成・ストア説明文・集客施策を管理する。
+
+## 対象プロダクト（随時追加）
+- Digital Stoic Lock: 英語圏向けセルフコミットメントアプリ
+
+## ルール
+- SNS投稿は `sns/YYYY-MM-DD-platform-title.md`
+- コンテンツは `content/product-title.md`
+- ストア説明文は `store-copy/product-platform.md`
+- 英語圏向けコンテンツは必ず英語で作成
+- トーンはプロダクトのコンセプトに合わせる
+- 投稿後は反応・メモを必ず記録する
+
+## チャネル別方針
+| チャネル | 用途 | トーン |
+|---------|------|-------|
+| X（Twitter） | 開発進捗・機能告知 | 簡潔・技術的 |
+| Reddit | コミュニティ発信（r/productivity等） | 誠実・価値提供 |
+| Product Hunt | ローンチ告知 | キャッチー・実績ベース |
+| Google Play | ストア説明文 | 明確・ベネフィット訴求 |
+| App Store | ストア説明文 | 洗練・感情訴求 |
+
+## 連携部署
+- 開発部: 新機能リリース時に連携して告知コンテンツを作成
+- 経理部: 集客施策のROIを追跡
+```
