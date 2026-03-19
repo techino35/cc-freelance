@@ -163,4 +163,4 @@ function sendEmailNotification(message) {
 この記事の内容をすぐに使いたい方向けに、設定済みのGoogle Sheetsテンプレートを用意しました。
 GASコード付き・Instructionsタブ付きで、コピーして設定を変えるだけで動きます。
 
-👉 [Auto-Notify Timesheet Template（Gumroad）](https://gumroad.com/l/auto-notify-timesheet)
+👉 [Auto-Notify Timesheet Template（Gumroad）](https://inoshu.gumroad.com/l/pknnt)

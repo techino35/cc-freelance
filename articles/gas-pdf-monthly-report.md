@@ -163,4 +163,4 @@ function sendMonthlyReportAllSheets() {
 ---
 ## 設定済みテンプレートで今すぐ使えます
 
-👉 [Monthly Report Generator（Gumroad）](https://gumroad.com/l/monthly-report-generator)
+👉 [Monthly Report Generator（Gumroad）](https://inoshu.gumroad.com/l/cplqvv)

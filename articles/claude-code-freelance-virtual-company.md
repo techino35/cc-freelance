@@ -190,4 +190,4 @@ Claude Codeのエージェント機能を使って、フリーランスの管理
 cc-freelanceのSubagentテンプレートセットをGumroadで配布しています。
 CLAUDE.mdのサンプルから各エージェント定義まで全部入りです。
 
-👉 [cc-freelance Subagent Templates（Gumroad）](https://gumroad.com/l/cc-freelance-templates)
+👉 [cc-freelance Subagent Templates（Gumroad）](https://inoshu.gumroad.com/l/yqvqc)
