@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — AI Page Summarizer</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; line-height: 1.6; }
+    h1 { color: #1a73e8; border-bottom: 2px solid #1a73e8; padding-bottom: 8px; }
+    h2 { color: #444; margin-top: 32px; }
+    table { border-collapse: collapse; width: 100%; margin: 16px 0; }
+    th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+    th { background: #f5f5f5; }
+    .last-updated { color: #888; font-size: 0.9em; }
+    a { color: #1a73e8; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy — AI Page Summarizer</h1>
+  <p class="last-updated">Last updated: March 30, 2026</p>
+
+  <h2>1. Overview</h2>
+  <p>AI Page Summarizer ("the Extension") is a Chrome browser extension that summarizes webpage content using the Anthropic Claude AI API. This Privacy Policy explains what data is accessed and how it is handled.</p>
+
+  <h2>2. Data We Access</h2>
+  <table>
+    <tr><th>Data Type</th><th>Purpose</th></tr>
+    <tr><td>Webpage text content (active tab)</td><td>Sent to Anthropic Claude API to generate a summary</td></tr>
+    <tr><td>Your Anthropic API key</td><td>Stored locally via chrome.storage.sync; used to authenticate API requests</td></tr>
+    <tr><td>Summary history (last 20 entries)</td><td>Stored locally via chrome.storage.local; never leaves your device</td></tr>
+  </table>
+
+  <h2>3. Third-Party Services</h2>
+  <p>Page content is sent to the <strong>Anthropic Claude API</strong> (api.anthropic.com) over HTTPS to generate summaries. Your API key is included in request headers as required by Anthropic. Please review <a href="https://www.anthropic.com/privacy">Anthropic's Privacy Policy</a> for details on how they handle data.</p>
+
+  <h2>4. Data the Developer Does Not Collect</h2>
+  <p>The extension developer does <strong>not</strong> collect, store, or transmit any user data. No analytics, no telemetry, no external servers operated by the developer.</p>
+
+  <h2>5. Permissions Used</h2>
+  <ul>
+    <li><strong>activeTab</strong>: Required to read the text content of the currently active tab when you click "Summarize This Page".</li>
+    <li><strong>storage</strong>: Used to save your API key and summary history locally in your browser.</li>
+    <li><strong>scripting</strong>: Required to extract page text content from the active tab.</li>
+  </ul>
+
+  <h2>6. Data Sharing</h2>
+  <p>We do <strong>not</strong> sell, rent, or share your data with any third parties beyond the API request to Anthropic described above.</p>
+
+  <h2>7. Contact</h2>
+  <p>For questions about this privacy policy, contact: <a href="mailto:techino35@gmail.com">techino35@gmail.com</a></p>
+</body>
+</html>
